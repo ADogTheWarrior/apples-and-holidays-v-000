@@ -101,6 +101,17 @@ def all_supplies_in_holidays(holiday_hash)
 
   end
 
+puts "Winter:"
+puts "  Christmas: "
+puts "  New Years: "
+puts "Summer:"
+puts "  Fourth of July: "
+puts "Fall:"
+puts "  Thanksgiving: "
+puts "Spring:"
+puts "  Memorial Day: "
+  
+
 end
 
 def all_holidays_with_bbq(holiday_hash)
