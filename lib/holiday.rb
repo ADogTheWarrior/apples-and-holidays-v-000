@@ -101,15 +101,15 @@ def all_supplies_in_holidays(holiday_hash)
 
   end
 
-puts "Winter:"
-puts "  Christmas: Lights, Wreath"
-puts "  New Years: Party Hats"
-puts "Summer:"
-puts "  Fourth of July: Fireworks, BBQ"
-puts "Fall:"
-puts "  Thanksgiving: Turkey"
-puts "Spring:"
-puts "  Memorial Day: BBQ"
+  puts "Winter:"
+  puts "  Christmas: Lights, Wreath"
+  puts "  New Years: Party Hats"
+  puts "Summer:"
+  puts "  Fourth of July: Fireworks, BBQ"
+  puts "Fall:"
+  puts "  Thanksgiving: Turkey"
+  puts "Spring:"
+  puts "  Memorial Day: BBQ"
 
 
 end
