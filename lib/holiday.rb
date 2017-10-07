@@ -70,15 +70,15 @@ def all_supplies_in_holidays(holiday_hash)
 
     holidays.each do |holiday, supplies|
       if holiday == :chirstmas
-        puts "Christmas: #{supplies}"
+        puts "  Christmas: #{supplies}"
       elsif holiday == :new_years
-        puts "New Years: #{supplies}"
+        puts "  New Years: #{supplies}"
       elsif holiday == :fourth_of_july
-        puts "Fourth of July: #{supplies}"
+        puts "  Fourth of July: #{supplies}"
       elsif holiday == :thanksgiving
-        puts "Thanksgiving: #{supplies}"
+        puts "  Thanksgiving: #{supplies}"
       elsif holiday == :memorial_day
-        puts "Memorial Day: #{supplies}"
+        puts "  Memorial Day: #{supplies}"
       end
     end
 
