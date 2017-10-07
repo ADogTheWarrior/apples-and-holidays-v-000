@@ -57,6 +57,45 @@ def all_supplies_in_holidays(holiday_hash)
   #   Fourth Of July: Fireworks, BBQ
   # etc.
 
+  holiday_hash.each do |season, holidays|
+    if season == :winter
+      puts "Winter:"
+    elsif season == :summer
+      puts "Summer:"
+    elsif season == :fall
+      puts "Fall:"
+    elsif season == :spring
+      puts "Spring:"
+    end
+
+    holidays.each do |holiday, supplies|
+      if holiday == :chirstmas
+        puts "Christmas: #{supplies}"
+      elsif holiday == :new_years
+        puts "New Years: #{supplies}"
+      elsif holiday == :fourth_of_july
+        puts "Fourth of July: #{supplies}"
+      elsif holiday == :thanksgiving
+        puts "Thanksgiving: #{supplies}"
+      elsif holiday == :memorial_day
+        puts "Memorial Day: #{supplies}"
+      end
+    end
+
+  end
+  #   :winter => {
+  #     :christmas => ["Lights", "Wreath"],
+  #     :new_years => ["Party Hats"]
+  #   },
+  #   :summer => {
+  #     :fourth_of_july => ["Fireworks", "BBQ"]
+  #   },
+  #   :fall => {
+  #     :thanksgiving => ["Turkey"]
+  #   },
+  #   :spring => {
+  #     :memorial_day => ["BBQ"]
+  #   }
 end
 
 def all_holidays_with_bbq(holiday_hash)
