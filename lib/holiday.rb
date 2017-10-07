@@ -84,16 +84,18 @@ def all_supplies_in_holidays(holiday_hash)
     end
 
     holidays.each do |holiday, supplies|
-      if holiday == :chirstmas
-        puts "  Christmas: #{supplies}"
-      elsif holiday == :new_years
-        puts "  New Years: #{supplies}"
-      elsif holiday == :fourth_of_july
-        puts "  Fourth of July: #{supplies}"
-      elsif holiday == :thanksgiving
-        puts "  Thanksgiving: #{supplies}"
-      elsif holiday == :memorial_day
-        puts "  Memorial Day: #{supplies}"
+      supplies.each do |supply|
+        if holiday == :chirstmas
+          puts "  Christmas: #{supplies}"
+        elsif holiday == :new_years
+          puts "  New Years: #{supplies}"
+        elsif holiday == :fourth_of_july
+          puts "  Fourth of July: #{supplies}"
+        elsif holiday == :thanksgiving
+          puts "  Thanksgiving: #{supplies}"
+        elsif holiday == :memorial_day
+          puts "  Memorial Day: #{supplies}"
+        end
       end
     end
 
