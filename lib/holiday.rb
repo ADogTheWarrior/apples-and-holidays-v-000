@@ -90,7 +90,7 @@ def all_supplies_in_holidays(holiday_hash)
 #        elsif holiday == :new_years
 #          puts "  New Years: #{supplies}"
 #        elsif holiday == :fourth_of_july
-#          puts "  Fourth of July: #{supplies}"
+#          puts "  Fourth Of July: #{supplies}"
 #        elsif holiday == :thanksgiving
 #          puts "  Thanksgiving: #{supplies}"
 #        elsif holiday == :memorial_day
@@ -105,7 +105,7 @@ def all_supplies_in_holidays(holiday_hash)
   puts "  Christmas: Lights, Wreath"
   puts "  New Years: Party Hats"
   puts "Summer:"
-  puts "  Fourth of July: Fireworks, BBQ"
+  puts "  Fourth Of July: Fireworks, BBQ"
   puts "Fall:"
   puts "  Thanksgiving: Turkey"
   puts "Spring:"
